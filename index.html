@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio</title>
+    <script src="https://kit.fontawesome.com/0df422d0ce.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        
+        <div class="container">
+            
+            <nav>
+<H1 class="tayo">PREFERRED NAME : TAYO.</H1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="info-header">
+                <p>Junior Software Developer</p>
+                <h1>Hi, <span>Welcome To My Page</span></h1>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ---------------about Me------------------- -->
+    <div id="about">
+       <div class="container"></div>
+       <div class="row">
+             <div class="about-col-1">
+                <img src="img/me.png" alt="" width="20%" height="100%">
+             </div>
+             
+             <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a fast learner with very great communication skill and keen high for detail. Able to work in a team and a pro-active self-starter. 
+                   I am seeking a challenging and rewarding position.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML/CSS&JAVASCRIPT</span><br>Designing Websites</li>
+                        <li><span>PYTHON</span><br>Web Development</li>
+                        <li><span>SQL</span><br>MySQL</li>
+                    </ul>
+
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Quoteline Direct</span><br>Call Centre</li>
+                        <li><span>Adecco</span><br>Call Centre</li>
+                        <li><span>Gabby Autos</span><br>Admin-Officer</li>
+                    </ul>
+
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Holborn College</span><br>A-Levels</li>
+                        <li><span>Manchester Metropolitan University</span><br>Business School</li>
+                        <li><span>Code-Nation</span><br>Certificate in IT User Skills Level 2</li>
+                        <li><span>Code-Nation</span><br>Certificate in cyber-Security and Digital Forensics</li>
+                        <li><span>Just It</span><br>Web Development</li>
+                    </ul>
+
+                </div>
+
+             </div>
+               
+       </div>
+    </div>
+
+
+    <!-- ------------Services-------------------------- -->
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>HTML/CSS & JS</h2>
+                    <p>Knowledge of HTML and JavaScript and how a web page works</p>
+                    <a class="atag" href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>"></i>
+                    <h2>PYTHON</h2>
+                    <p>Basic python knowledge</p>
+                    <a class="atag" href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>MySQL</h2>
+                    <p>SQL and general principles of database schema design</p>
+                    <a class="atag" href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------portfolio--------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <iframe src="https://hcj.adetayostephens.repl.co/" frameBorder="0" scrolling="no" >MCFC SQUAD</iframe>          
+                    <div class="layer">
+                        <h3>MCFC</h3>
+                        <p>PEP'S ARMY</p>
+                        <a href="https://hcj.adetayostephens.repl.co/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <iframe src="https://toDo.adetayostephens.repl.co" frameborder="0" scrolling="no"></iframe>
+                    <div class="layer">
+                        <h3>To Do List</h3>
+                        <p>Never forget your plans</p>
+                        <a href="https://toDo.adetayostephens.repl.co" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <iframe src="https://replit.com/@AdetayoStephens/choco?outputonly=1&lite=true" frameborder="0" scrolling="no">CHOCO APP</iframe>
+                    <div class="layer">
+                        <h3>Chocolate APP</h3>
+                        <p>Chocolate Products</p>
+                        <a href="https://replit.com/@AdetayoStephens/choco?outputonly=1&lite=true" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+        </div>
+        <a href="#" class="btn">See Profile</a>
+        </div>
+
+        <!-- -------------Contact----------------------------- -->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>tayostephens@protonmail.com</p>
+                        <p><i class="fa-regular fa-phone"></i>+447574316809</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter-sqaure"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+
+                        </div>
+                        <a href="img/Tayo CV.pdf" download class="btn btn2">Download CV</a>   
+                    </div>
+                    <div class="contact-right">
+                        <form action="https://formsubmit.co/066cc4c5926eb6a32075e2fc589d1e80"  method="POST">
+                            <input type="hidden" name="_subject" value="New EMAIL!!!!">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Meaage" rows="6" placeholder="Write Your Message Here"></textarea>
+                            <button type="submit" class="btn btn2">SEND</button>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
